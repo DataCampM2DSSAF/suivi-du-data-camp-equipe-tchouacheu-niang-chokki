@@ -12,6 +12,36 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 - Sokhna Penda Toure :
 
 Nous avons aussi effectué une exploration de nos données. Ces dernières sont subdivisées en 4 : 
-- train_identity & test_identity
 - train_transaction & test_transaction
+      TransactionDT: timedelta à partir d'un datetime de référence donné (pas un horodatage réel)
+      TransactionAMT: montant du paiement de la transaction en USD
+      ProductCD: code produit, le produit pour chaque transaction
+      card1 - card6: informations de carte de paiement, telles que le type de carte, la catégorie de carte, la banque d'émission, le pays, etc.
+      addr: adresse
+      dist: distance
+      Domaine de messagerie P_ et (R__): domaine de messagerie de l'acheteur et du destinataire
+      C1-C14: comptage, par exemple le nombre d'adresses associées à la carte de paiement, etc. La signification réelle est masquée.
+      D1-D15: timedelta, comme les jours entre la transaction précédente, etc.
+      M1-M9: correspondance, comme les noms sur la carte et l'adresse, etc.
+      Vxxx: Vesta a conçu de riches fonctionnalités, notamment le classement, le comptage et d'autres relations d'entité.
+      
+      Caractéristiques catégoriques:
+          ProductCD
+          card1 - card6
+          addr1, addr2
+          Pemaildomain Remaildomain
+          M1 - M9
+
+
+- train_identity & test_identity
+      Les variables de ce tableau sont les informations d'identité - les informations de connexion réseau (IP, FAI, proxy, etc.) et la signature numérique (UA / navigateur / os / version, etc.) associées aux transactions.
+      Ils sont collectés par le système de protection contre la fraude de Vesta et les partenaires de sécurité numérique.
+      (Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni pour la protection de la vie privée et l'accord de contrat)
+
+      Caractéristiques catégoriques:
+          DeviceType
+          DeviceInfo
+          id12 - id38
+      
+
 
