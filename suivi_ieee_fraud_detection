@@ -15,10 +15,13 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 --> Fernanda Tchouacheu :
 					- Desciptive Statistics
 					- Memory reduction
+					- selection de variables
+					
+					
 
 
 --> Hypolite Chokki :
-          - XGBoost Classifier
+                                        - XGBoost Classifier
 					- CatBoost Classifier
 					- LGBM Classifier
 					- Neural Network
