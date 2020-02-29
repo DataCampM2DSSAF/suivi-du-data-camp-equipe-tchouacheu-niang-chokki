@@ -61,7 +61,7 @@ Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter l
 
 ![submission](https://user-images.githubusercontent.com/45575893/75613640-6ccaa880-5b30-11ea-99f9-8498e519cf48.PNG)
 
--- Importance des variables du modèle XGBoost avec optimisation des hyperparamètres
+* Importance des variables du modèle XGBoost avec optimisation des hyperparamètres
 
 ![feature_importance_xgboost_tunning](https://user-images.githubusercontent.com/45575893/75613470-61767d80-5b2e-11ea-87fa-467a071f5c1e.PNG)
 
