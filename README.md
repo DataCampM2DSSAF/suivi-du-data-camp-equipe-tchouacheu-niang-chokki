@@ -61,7 +61,7 @@ Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter l
 
 - Première soumission avec le modèle XGBoost 
 
-![alt text](http://C:/Users/HP/Desktop/DataCamp/Projet/img/xgboost_submission.PNG)
+https://github.com/DataCampM2DSSAF/suivi-du-data-camp-equipe-tchouacheu_toure_niang_chokki/issues/1#issue-573213864
 
 - Deuxième soumission avec modèle XGBoost avec optimisation des hyperparamètres
 
