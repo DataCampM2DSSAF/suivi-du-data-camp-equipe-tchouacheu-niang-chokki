@@ -60,7 +60,7 @@ Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter l
 # Soumission
 
 - Première soumission avec le modèle XGBoost 
-![alt text](http://C:/Users/HP/Desktop/DataCamp/Projet/img/xgboost_submission.PNG)
+![xgboost_submission](https://user-images.githubusercontent.com/45575893/75602520-77e8ee80-5ac6-11ea-8deb-75b707b40335.PNG)
 
 -- Lien GitHub du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://github.com/DataCampM2DSSAF/suivi-du-data-camp-equipe-tchouacheu_toure_niang_chokki). 
 
