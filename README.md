@@ -1,5 +1,3 @@
-theme: jekyll-theme-cayman
-
 # IEEE Fraud Detection
 
 Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview)
