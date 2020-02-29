@@ -17,7 +17,7 @@ Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
   - Code : l'ensemble du code Python utilisé
   - Dossier suivi : fichier centralisant l'évolution chronologique du projet et la répartition des tâches dans le groupe
   - Rapport : Le rapport expliquant les différentes méthodes utilisées et les résultats obtenus
-  - Fichiers de soumission avec un format csv
+  - Fichiers de soumission sous un format csv
 
 ## Conditions préalables
 
