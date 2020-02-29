@@ -59,7 +59,7 @@ Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter l
  
 # Soumission
 
-![submission](https://user-images.githubusercontent.com/45575893/75613562-70116480-5b2f-11ea-8278-a6fd48226c10.PNG)
+![submission](https://user-images.githubusercontent.com/45575893/75613640-6ccaa880-5b30-11ea-99f9-8498e519cf48.PNG)
 
 -- Importance des variables du modèle XGBoost avec optimisation des hyperparamètres
 
