@@ -1,4 +1,4 @@
-# IEEE Fraud Detection
+<h1 align="center"> IEEE Fraud Detection </h1>
 
 Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview)
 
