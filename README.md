@@ -1,17 +1,6 @@
 <h1 align="center"> DataCamp IEEE Fraud Detection </h1>
 
-Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview)
-
-
----
-Contributor: |
-  | Mohamed NIANG
-  | Penda TOURE
-  | Fernanda TCHOUACHEU
-  | Medzo CHOKKI
----
-
- 
+Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview) 
 
 ## Description
 
