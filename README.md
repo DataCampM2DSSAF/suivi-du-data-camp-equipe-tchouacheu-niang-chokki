@@ -65,6 +65,6 @@ Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter l
 
 ![feature_importance_xgboost_tunning](https://user-images.githubusercontent.com/45575893/75619758-403e7d00-5b80-11ea-8932-31015c44200f.PNG)
 
--- Lien GitHub du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://github.com/DataCampM2DSSAF/suivi-du-data-camp-equipe-tchouacheu_toure_niang_chokki). 
+* Lien GitHub du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://github.com/DataCampM2DSSAF/suivi-du-data-camp-equipe-tchouacheu_toure_niang_chokki). 
 
--- Lien Kaggle du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://www.kaggle.com/niangmohamed/ieee-fraud-detection). 
+* Lien Kaggle du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://www.kaggle.com/niangmohamed/ieee-fraud-detection). 
