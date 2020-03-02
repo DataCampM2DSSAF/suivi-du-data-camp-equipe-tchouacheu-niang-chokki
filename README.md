@@ -22,14 +22,14 @@ Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
 
 - Install [Anaconda](https://www.anaconda.com/download/) >=5.x
 
-Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter lab`.
+- Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter lab`.
 
 
 ## Télécharger ou cloner le projet dans GitHub
 
 - Étape 1 : Entrez l'url de github dans le champ en haut à droite.
 - Étape 2 : Appuyez sur la touche "Entrée" ou cliquez sur "Télécharger" pour télécharger directement le fichier zip ou cliquez sur "Rechercher" pour afficher la liste des sous-dossiers et des fichiers.
-- Étape 3 : Cliquez sur "Télécharger le fichier zip" ou sur le bouton "Obtenir le fichier" pour obtenir les fichiers.
+- Étape 3 : Cliquez sur "Télécharger le fichier zip" ou sur le bouton "cloner le projet" pour obtenir les fichiers.
 
 
 ## Télécharger le jeux de données complet sur Kaggle
