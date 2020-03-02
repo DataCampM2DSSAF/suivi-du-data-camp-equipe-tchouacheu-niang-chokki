@@ -2,10 +2,6 @@
 
 Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview) 
 
-## Contributeur
-
-Mohamed NIANG | Penda TOURE | Fernanda TCHOUACHEU | Medzo CHOKKI
-
 ## Description
 
 ```
