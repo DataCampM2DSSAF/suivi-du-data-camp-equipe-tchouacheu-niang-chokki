@@ -1,3 +1,17 @@
+---
+title: |
+  | TP M2 Data Science 
+  | Le problème du voyageur de commerce
+  | R versus Rcpp
+author: "Vincent Runge"
+date: "26 septembre 2019"
+output:
+  prettydoc::html_pretty:
+    toc: true
+    theme: cayman
+    highlight: github
+---
+
 <h1 align="center"> IEEE Fraud Detection </h1>
 
 Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview)
