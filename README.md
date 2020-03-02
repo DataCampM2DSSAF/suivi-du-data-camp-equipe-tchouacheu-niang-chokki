@@ -57,7 +57,7 @@ Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter l
     ├── rapport                                          <- expliquant les différentes méthodes utilisées et les résultats obtenus
     
  
-# Meilleure Soumission sur Kaggle
+* Meilleure Soumission sur Kaggle
 
 ![submission](https://user-images.githubusercontent.com/45575893/75619548-b8f00a00-5b7d-11ea-8082-c5d6d0a21f3b.PNG)
 
