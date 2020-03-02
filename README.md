@@ -1,3 +1,7 @@
+h1 {
+  color: blue;
+}
+
 <h1 align="center"> DataCamp IEEE Fraud Detection </h1>
 
 Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview) 
