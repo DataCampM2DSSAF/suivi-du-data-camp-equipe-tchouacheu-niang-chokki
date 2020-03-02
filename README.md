@@ -1,15 +1,12 @@
 ---
 title: |
-  | TP M2 Data Science 
-  | Le problème du voyageur de commerce
-  | R versus Rcpp
-author: "Vincent Runge"
-date: "26 septembre 2019"
-output:
-  prettydoc::html_pretty:
-    toc: true
-    theme: cayman
-    highlight: github
+  | DataCamp  
+  | Fraud Detection
+Contributor: |
+  | Mohamed NIANG
+  | Penda TOURE
+  | Fernanda TCHOUACHEU
+  | Medzo CHOKKI
 ---
 
 <h1 align="center"> IEEE Fraud Detection </h1>
