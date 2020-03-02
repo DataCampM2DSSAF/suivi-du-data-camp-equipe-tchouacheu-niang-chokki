@@ -14,9 +14,9 @@ Nous devrons ainsi améliorer l'efficacité des alertes de transactions fraudule
 ## Contenu du projet
 
 Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
-  - Code : l'ensemble du code Python utilisé
-  - Dossier suivi : fichier centralisant l'évolution chronologique du projet et la répartition des tâches dans le groupe
-  - Rapport : Le rapport expliquant les différentes méthodes utilisées et les résultats obtenus
+  - Notebook : l'ensemble du code Python.
+  - Fichier de suivi : fichier centralisant l'évolution chronologique du projet et la répartition des tâches du team.
+  - Rapport : le rapport expliquant les différentes méthodes utilisées et les résultats obtenus.
 
 ## Conditions préalables
 
