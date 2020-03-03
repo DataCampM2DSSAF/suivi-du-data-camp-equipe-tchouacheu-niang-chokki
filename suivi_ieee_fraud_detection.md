@@ -29,17 +29,16 @@ Nous avons aussi effectué une exploration de nos données. Ces dernières sont 
 
 * train_transaction & test_transaction :
 
- 	1. TransactionDT: timedelta à partir d'un datetime de référence donné (pas un horodatage réel)
+ 	1. TransactionDT: qui mesure le temps en seconde
 	2. TransactionAMT: montant du paiement de la transaction en USD
 	3. ProductCD: code produit, le produit pour chaque transaction
-	4. card1 - card6: informations de carte de paiement, telles que le type de carte, la catégorie de carte, la banque d'émission, le pays, etc
+	4. card1 - card6: informations de carte de paiement
 	5. addr: adresse
 	6. dist: distance
 	7. Domaine de messagerie P_ et (R__): domaine de messagerie de l'acheteur et du destinataire
-	8. C1-C14: comptage, par exemple le nombre d'adresses associées à la carte de paiement, etc. La signification réelle est masquée
+	8. C1-C14: comptage, par exemple le nombre d'adresses associées à la carte de paiement, etc
 	9. D1-D15: timedelta, comme les jours entre la transaction précédente, etc
 	10. M1-M9: correspondance, comme les noms sur la carte et l'adresse, etc
-	11. Vxxx: Vesta a conçu de riches fonctionnalités, notamment le classement, le comptage et d'autres relations d'entité
       
       Caractéristiques catégoriques:
           ProductCD
