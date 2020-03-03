@@ -14,7 +14,7 @@
 - [Organisation du projet](#organisation-du-projet)
 - [Meilleure Soumission sur Kaggle](#meilleure-soumission-sur-kaggle)
 - [Importance des variables du modele ayant la meilleure soumission](#importance-des-variables-du-modele-ayant-la-meilleure-soumission)
-- [References](#references)
+- [Liens du projet](#liens-du-projet)
 
 ---
 
@@ -94,7 +94,7 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 
 ---
 
-## References
+## Liens du projet
 
 * Lien GitHub du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://github.com/DataCampM2DSSAF/suivi-du-data-camp-equipe-tchouacheu_toure_niang_chokki). 
 
