@@ -13,12 +13,12 @@ Nous avons aussi procédé à une répartition des tâches. Nous n'avons pas cho
 plutôt un responsable pour chacune des parties du projet. Ci dessous, une vision globale de cette répartition :
 
 
-           | Mohamed Niang         | Fernanda Tchouacheu   | Hypolite Chokki      | Sokhna Penda Toure         | 
-           | :--------------------:|:---------------------:| --------------------:| :-------------------------:|
-           | Data exploration      | Desciptive Statistics | LGBM Classifier      | Support Vector Classifier  |
-           | Missing Data Problem  | Memory reduction      | Neural Network       | Random Forest              |
-           | Imbalanced problem    | XGBoost Classifier    | Logistic Regression  | DecisionTree Classifier    |
-           | Preprocessing         | CatBoost Classifier   | KNearest Neighbors   | Naive Bayes                |
+   | Mohamed Niang         | Fernanda Tchouacheu   | Hypolite Chokki      | Sokhna Penda Toure         | 
+   | :-:                   |:-:                    | :-:                  | :-:                        |
+   | Data exploration      | Desciptive Statistics | LGBM Classifier      | Support Vector Classifier  |
+   | Missing Data Problem  | Memory reduction      | Neural Network       | Random Forest              |
+   | Imbalanced problem    | XGBoost Classifier    | Logistic Regression  | DecisionTree Classifier    |
+   | Preprocessing         | CatBoost Classifier   | KNearest Neighbors   | Naive Bayes                |
 	   
 
 ---
