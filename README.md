@@ -14,6 +14,7 @@
 - [Organisation du projet](#organisation-du-projet)
 - [Meilleure Soumission sur Kaggle](#meilleure-soumission-sur-kaggle)
 - [Importance des variables du modele ayant la meilleure soumission](#importance-des-variables-du-modele-ayant-la-meilleure-soumission)
+- [Distribution de la meilleure soumission](#distribution-de-la-meilleure-soumission)
 - [Liens du projet](#liens-du-projet)
 
 ---
@@ -91,6 +92,10 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 ## Importance des variables du modele ayant la meilleure soumission
 
 ![feature_importance_xgboost_tunning](https://user-images.githubusercontent.com/45575893/75619758-403e7d00-5b80-11ea-8932-31015c44200f.PNG)
+
+## Distribution de la meilleure soumission
+
+
 
 ---
 
