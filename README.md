@@ -9,7 +9,7 @@
 - [Description](#description)
 - [Contenu du projet](#contenu-du-projet)
 - [Conditions prealables](#conditions-prealables)
-- [Telecharger ou cloner le projet dans GitHub](#telecharger-ou-cloner-le-projet-dans-gitHub)
+- [Telecharger ou cloner le projet sur GitHub](#telecharger-ou-cloner-le-projet-sur-gitHub)
 - [Telecharger le jeux de donnees complet sur Kaggle](#telecharger-le-jeux-de-donnees-complet-sur-kaggle)
 - [Organisation du projet](#organisation-du-projet)
 - [Meilleure Soumission sur Kaggle](#meilleure-soumission-sur-kaggle)
@@ -47,7 +47,7 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 
 ---
 
-## Telecharger ou cloner le projet dans GitHub
+## Telecharger ou cloner le projet sur GitHub
 
 - Étape 1 : Entrez l'url de github dans le champ en haut à droite
 - Étape 2 : Appuyez sur la touche "Entrée" ou cliquez sur "Télécharger" pour télécharger directement le fichier zip ou cliquez sur "Rechercher" pour afficher la liste des sous-dossiers et des fichiers
