@@ -93,6 +93,8 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 
 ![feature_importance_xgboost_tunning](https://user-images.githubusercontent.com/45575893/75619758-403e7d00-5b80-11ea-8932-31015c44200f.PNG)
 
+---
+
 ## Distribution de la meilleure soumission
 
 ![submission distribution](https://user-images.githubusercontent.com/45575893/75730720-ee1b6a00-5ced-11ea-86a4-97cf56a85b24.PNG)
