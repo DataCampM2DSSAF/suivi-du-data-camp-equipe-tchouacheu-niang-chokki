@@ -31,10 +31,10 @@ Nous devrons ainsi améliorer l'efficacité des alertes de transactions fraudule
 
 ## Contenu du projet
 
-Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
-  - Notebook : l'ensemble du code Python.
-  - Fichier de suivi : fichier centralisant l'évolution chronologique du projet et la répartition des tâches du team.
-  - Rapport : le rapport expliquant les différentes méthodes utilisées et les résultats obtenus.
+Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
+  - Notebook : l'ensemble du code Python
+  - Fichier de suivi : fichier centralisant l'évolution chronologique du projet et la répartition des tâches du team
+  - Rapport : le rapport expliquant les différentes méthodes utilisées et les résultats obtenus
 
 ---
 
@@ -42,15 +42,15 @@ Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
 
 - Install [Anaconda](https://www.anaconda.com/download/) >=5.x
 
-- Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter lab`.
+- Ensuite, lancez l'application jupyter avec `jupyter notebook` ou avec `jupyter lab`
 
 ---
 
 ## Telecharger ou cloner le projet dans GitHub
 
-- Étape 1 : Entrez l'url de github dans le champ en haut à droite.
-- Étape 2 : Appuyez sur la touche "Entrée" ou cliquez sur "Télécharger" pour télécharger directement le fichier zip ou cliquez sur "Rechercher" pour afficher la liste des sous-dossiers et des fichiers.
-- Étape 3 : Cliquez sur "Télécharger le fichier zip" ou sur le bouton "cloner le projet" pour obtenir les fichiers.
+- Étape 1 : Entrez l'url de github dans le champ en haut à droite
+- Étape 2 : Appuyez sur la touche "Entrée" ou cliquez sur "Télécharger" pour télécharger directement le fichier zip ou cliquez sur "Rechercher" pour afficher la liste des sous-dossiers et des fichiers
+- Étape 3 : Cliquez sur "Télécharger le fichier zip" ou sur le bouton "cloner le projet" pour obtenir les fichiers
 
 ---
 
@@ -65,7 +65,7 @@ Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
 
     ├── README.md                                        <- Le README pour les développeurs qui utilisent ce projet.
     ├── données
-    │   ├── train_{transaction, identity}.csv            <- the training set.
+    │   ├── train_{transaction, identity}.csv            <- the training set
     │   ├── test_{transaction, identity}.csv             <- the test set (you must predict the isFraud value for these observations)
     │   ├── sample_submission.csv                        <- a sample submission file in the correct format
     │   
@@ -73,7 +73,7 @@ Vous trouverez dans ce répertoire l'ensemble des dossier utiles à ce projet :
     │
     ├── suivi_ieee_fraud_detection                       <- Contenant le suivi et l'avancée du projet
     │
-    ├── notebooks (ieee_fraud_detection)                 <- Contenant le fichier du projet sous Jupyter notebooks. 
+    ├── notebooks (ieee_fraud_detection)                 <- Contenant le fichier du projet sous Jupyter notebooks
     │                         t
     │                         
     │
