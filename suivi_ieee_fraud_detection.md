@@ -12,14 +12,12 @@ globale du projet et de la structure du répertoire dans le fichier Readme.
 Nous avons aussi procédé à une répartition des tâches. Nous n'avons pas choisi un structure avec un chef de groupe mais 
 plutôt un responsable pour chacune des parties du projet. Ci dessous, une vision globale de cette répartition :
 
-<center>
 | Mohamed Niang         | Fernanda Tchouacheu   | Hypolite Chokki      | Sokhna Penda Toure         | 
 | :--------------------:|:---------------------:| --------------------:| :-------------------------:|
 | Data exploration      | Desciptive Statistics | LGBM Classifier      | Support Vector Classifier  |
 | Missing Data Problem  | Memory reduction      | Neural Network       | Random Forest              |
 | Imbalanced problem    | XGBoost Classifier    | Logistic Regression  | DecisionTree Classifier    |
 | Preprocessing         | CatBoost Classifier   | KNearest Neighbors   | Naive Bayes                |
-</center>
 
 ---
 
