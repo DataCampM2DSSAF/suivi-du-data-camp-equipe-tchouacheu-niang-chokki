@@ -14,12 +14,12 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 
 <center>
 
-   | Mohamed Niang         | Fernanda Tchouacheu   | Hypolite Chokki      | Sokhna Penda Toure         | 
-   | :-:                   |:-:                    | :-:                  | :-:                        |
-   | Data exploration      | Desciptive Statistics | LGBM Classifier      | Support Vector Classifier  |
-   | Missing Data Problem  | Memory reduction      | Neural Network       | Random Forest              |
-   | Imbalanced problem    | XGBoost Classifier    | Logistic Regression  | DecisionTree Classifier    |
-   | Preprocessing         | CatBoost Classifier   | KNearest Neighbors   | Naive Bayes                |
+| Mohamed Niang         | Fernanda Tchouacheu   | Hypolite Chokki      | Sokhna Penda Toure         | 
+| :-:                   |:-:                    | :-:                  | :-:                        |
+| Data exploration      | Desciptive Statistics | LGBM Classifier      | Support Vector Classifier  |
+| Missing Data Problem  | Memory reduction      | Neural Network       | Random Forest              |
+| Imbalanced problem    | XGBoost Classifier    | Logistic Regression  | DecisionTree Classifier    |
+| Preprocessing         | CatBoost Classifier   | KNearest Neighbors   | Naive Bayes                |
 
 </center>
 
