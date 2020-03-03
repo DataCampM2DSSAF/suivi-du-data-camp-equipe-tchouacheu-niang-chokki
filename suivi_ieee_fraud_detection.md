@@ -1,3 +1,6 @@
+                                                Suivi du Projet
+						
+						
 17/01/2020 : Introduction au projet avec Mme Agathe Guilloux. L'objectif de ce travail et les rendus attendus nous ont 
 été présentés. Un suivi hebdomadaire du projet est mis en place.
 
