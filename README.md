@@ -6,7 +6,6 @@
 ---
 
 ### Sommaire
-============
 
 - [Description](#description)
 - [Contenu du projet](#contenu-du-projet)
