@@ -1,11 +1,12 @@
 <h1 align="center"> DataCamp IEEE Fraud Detection </h1>
-*******************************************************
+
 
 > Une Compétition Kaggle [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection/overview) 
 
 ---
 
 ### Sommaire
+========
 
 - [Description](#description)
 - [Contenu du projet](#contenu-du-projet)
