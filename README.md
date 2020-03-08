@@ -97,13 +97,13 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 
 ## Importance des variables du modele ayant la meilleure soumission
 
-![feature_importance_xgboost_tunning](https://user-images.githubusercontent.com/45575893/75619758-403e7d00-5b80-11ea-8932-31015c44200f.PNG)
+![feature_importance_xgboost_cv](https://user-images.githubusercontent.com/45575893/76173174-4a263880-619d-11ea-8479-26f1878346c9.PNG)
 
 ---
 
 ## Distribution de la meilleure soumission
 
-![feature_importance_xgboost_cv](https://user-images.githubusercontent.com/45575893/76173174-4a263880-619d-11ea-8479-26f1878346c9.PNG)
+
 
 ---
 
