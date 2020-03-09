@@ -103,7 +103,7 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 
 ## Distribution de la meilleure soumission
 
-
+![submission distribution](https://user-images.githubusercontent.com/45575893/76245575-6c22c800-623c-11ea-829d-716d299ea3d8.PNG)
 
 ---
 
