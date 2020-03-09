@@ -91,19 +91,19 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
  
 ## Meilleure Soumission sur Kaggle
 
-![submission](https://user-images.githubusercontent.com/45575893/76245169-b3f51f80-623b-11ea-9aa0-e156857dfce5.PNG)
+![submission](https://user-images.githubusercontent.com/45575893/76245412-22d27880-623c-11ea-810e-1d310c218a93.PNG)
 
 ---
 
 ## Importance des variables du modele ayant la meilleure soumission
 
-![feature_importance_xgboost_cv](https://user-images.githubusercontent.com/45575893/76173174-4a263880-619d-11ea-8479-26f1878346c9.PNG)
+
 
 ---
 
 ## Distribution de la meilleure soumission
 
-![submission distribution](https://user-images.githubusercontent.com/45575893/76173198-86599900-619d-11ea-8137-e62e1fd5c1fa.PNG)
+
 
 ---
 
