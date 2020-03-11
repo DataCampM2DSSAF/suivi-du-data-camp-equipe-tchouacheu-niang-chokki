@@ -67,7 +67,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
-> 14/02/2020 : Cette séance nous a permis de finir avec la partie statistique descriptive et la première partie de traitement des données, vu qu'il y avait beaucoup de missing value dans les données. Ainsi, nous n'avons pas encore réglé le problème des classes non balancées car pour la suite nous avons décider de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost, le CatBoost et le LGBM. 
+> 14/02/2020 : Cette séance nous a permis de finir avec la partie statistique descriptive et la première partie de traitement des données, vu qu'il y avait beaucoup de missing value dans les données. Ainsi, nous n'avons pas encore réglé le problème des classes non balancées car pour la suite nous avons décider de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost, le CatBoost et le LGBM. Ces modèles sont non seulement éfficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values. Ainsi nous allons dans un premier temps nous focalisé sur les modèles comme XGBOOST et LGBM. Puis dans un second temps, nous allons essayer corriger le problème de classe non balancée en faisant du resampling, faire le preprocessing necessaire et ensuite faire un apercu sur les autres modèles classiques comme Logistic regression, Naive Bayes, etc.
 
 ---
 
