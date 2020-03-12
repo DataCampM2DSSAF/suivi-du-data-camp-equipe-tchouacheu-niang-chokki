@@ -112,3 +112,5 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 * Lien GitHub du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://github.com/DataCampM2DSSAF/suivi-du-data-camp-equipe-tchouacheu_toure_niang_chokki). 
 
 * Lien Kaggle du projet [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://www.kaggle.com/niangmohamed/notebooks). 
+
+* Lien Overleaf du rapport [**Mohamed Niang**,**Hypolite Chokki**, **Fernanda Tchouacheu** & **Sokhna Penda Toure**](https://www.overleaf.com/project/5e68ccfa7ce3be00019d3947). 
