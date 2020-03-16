@@ -20,8 +20,9 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 | Preprocessing         | KNearest Neighbors     |                 
 | XGBoost Classifier    | DecisionTree Classifier|
 | CatBoost Classifier   | Naive Bayes            |
-                        | Logistic Regression    |
-                        ---
+|                       | Logistic Regression    |
+                        
+---
 
 Nous avons aussi effectué une exploration de nos données. Ces dernières sont subdivisées en 4 : 
 
