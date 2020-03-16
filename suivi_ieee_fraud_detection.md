@@ -12,12 +12,17 @@ globale du projet et de la structure du répertoire dans le fichier Readme.
 Nous avons aussi procédé à une répartition des tâches. Nous n'avons pas choisi une structure avec un chef de groupe mais 
 plutôt un responsable pour chacune des parties du projet. Ci dessous, une vision globale de cette répartition :
 
-| Mohamed Niang         | Fernanda Tchouacheu   | Hypolite Chokki      | Sokhna Penda Toure         | 
-| :-:                   |:-:                    | :-:                  | :-:                        |
-| Data exploration      | Desciptive Statistics | LGBM Classifier      | Support Vector Classifier  |
-| Missing Data Problem  | Memory reduction      | Neural Network       | Random Forest              |
-| Imbalanced problem    | XGBoost Classifier    | Logistic Regression  | DecisionTree Classifier    |
-| Preprocessing         | CatBoost Classifier   | KNearest Neighbors   | Naive Bayes                |
+| Mohamed Niang         | Fernanda Tchouacheu    | Hypolite Chokki      |  
+| :-:                   | :-:                    | :-:                  | 
+| Data exploration      | Desciptive Statistics  | LGBM Classifier      |  
+| Missing Data Problem  | Memory reduction       | Neural Network       | 
+| Imbalanced problem    | Random Forest          | Logistic Regression  |  
+| Preprocessing         | KNearest Neighbors     |                 
+| XGBoost Classifier    | DecisionTree Classifier|
+| CatBoost Classifier   | Naive Bayes            |
+                        | Logistic Regression    |
+                        
+
 
 ---
 
@@ -72,3 +77,8 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 ---
 
 > 06/03/2020 : Nous avons réussi à faire l'optimisation des paramètres du premier modèle XGBoost et nous obtenu un accuracy de 98% sur le test. Ce modèle a pu amélioré le score public et privé sur Kaggle après soumission. Après ceci, nous avons lancé le modèle LGBM avec optimisation des hyperparamètres pour lequel aussi on a eu un accuracy de 98%. Toutefois puisqu'on est en présence de classe non balancée, on peut s'attendre à ce que l'accuracy surestime la précision. Ainsi pour la suite, nous allons aussi nous basé sur le score AUC pour mesuré le pouvoir prédictif des modèles. En poursuivant la modélisation, nous avons enrichit le modèle XGBOOST, cette fois ci en faisant du local validation et cross validation, qui nous a donné un score public de 0.9494 et un score privé de 0.9219 après soumission sur Kaggle. Pour la suite, nous allons poursuivre avec ce meme modèle en créant ce que l'on appelle des magic features càd des features obtenus par aggrégations des autres features et aussi en utlisant la librairie RAPIDS qui nous permettent de performer nos modèles par l'utlisation du GPU sur la lecture des données, la transformation des données, la modélisation, la validation et la prédiction.
+
+---
+
+>13/03/2020 :
+
