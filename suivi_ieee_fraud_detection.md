@@ -20,7 +20,7 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 | Preprocessing         | KNearest Neighbors     |                 
 | XGBoost Classifier    | DecisionTree Classifier|
 | CatBoost Classifier   | Naive Bayes            |
-|                       | Logistic Regression    |
+|                        
                         
 ---
 
