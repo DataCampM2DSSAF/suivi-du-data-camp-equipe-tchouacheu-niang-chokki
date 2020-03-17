@@ -79,7 +79,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 ---
 
 >16/03/2020 : 
-- Nous allons finir avec la modélisation 
-- Nous alllons Commencer avec la rédaction du rapport 
+ - Nous allons finir avec la modélisation et faire les dernières soumissions Kaggle
+ - Nous alllons Commencer avec la rédaction du rapport 
 
 
