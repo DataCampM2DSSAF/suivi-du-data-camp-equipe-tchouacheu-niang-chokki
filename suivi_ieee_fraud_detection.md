@@ -78,5 +78,8 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
->13/03/2020 :
+>16/03/2020 : 
+- Nous allons finir avec la modélisation 
+- Nous alllons Commencer avec la rédaction du rapport 
+
 
