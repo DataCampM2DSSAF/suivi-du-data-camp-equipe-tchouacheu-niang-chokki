@@ -97,7 +97,7 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
 
 ## Importance des variables du modele ayant la meilleure soumission
 
-![feature_importance_xgboost_cv](https://user-images.githubusercontent.com/45575893/76245495-4bf30900-623c-11ea-906c-95e76224d863.PNG)
+![feature_importance_xgboost_cv](https://user-images.githubusercontent.com/45575893/77117101-9c831700-6a31-11ea-8879-782f5c7e5895.PNG)
 
 ---
 
