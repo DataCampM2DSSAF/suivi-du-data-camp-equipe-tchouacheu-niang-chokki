@@ -19,8 +19,10 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 | Imbalanced problem    | Random Forest          | Logistic Regression  |  
 | Preprocessing         | KNearest Neighbors     |                      |            
 | XGBoost Classifier    | DecisionTree Classifier|                      |
-|                       | Naive Bayes            |                      |                        
-                        
+| LGBM Classifier       | Naive Bayes            |                      |                        
+| notebook final        | Rapport                |                      |
+
+
 ---
 
 Nous avons aussi effectué une exploration de nos données. Ces dernières sont subdivisées en 4 : 
