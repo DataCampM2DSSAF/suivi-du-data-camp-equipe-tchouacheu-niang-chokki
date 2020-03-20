@@ -20,7 +20,7 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 | Preprocessing         | KNearest Neighbors     |                      |            
 | XGBoost Classifier    | DecisionTree Classifier|                      |
 | LGBM Classifier       | Naive Bayes            |                      |                        
-| notebook final        | Rapport                |                      |
+|notebook final&rapport | Rapport                |                      |
 
 
 ---
