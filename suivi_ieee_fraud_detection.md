@@ -130,4 +130,6 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ![confusion_matrix_nn](https://user-images.githubusercontent.com/45575893/78071072-1d7ccf80-739d-11ea-90c0-35595af589cc.PNG)
 
+> Il ressort de l'analyse de la matrice de confusion, d'une part, qu'il y a 1958 False-Positive c'est-à-dire une transaction non frauduleuse prédite comme étant une transaction frauduleuse et d'autre part, qu'il y a 183 False-Negative c'est-à-dire une transaction frauduleuse prédite comme étant une transaction non frauduleuse. 
+
 ---
