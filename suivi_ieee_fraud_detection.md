@@ -91,7 +91,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > XGBOOST and LGBM working
 
-
+![XGBOOST_LGBM](https://user-images.githubusercontent.com/45575893/78065547-bb6b9c80-7393-11ea-8ac4-45f229912e45.PNG)
 
 ---
 
