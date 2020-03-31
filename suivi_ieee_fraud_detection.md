@@ -114,7 +114,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > Au lieu de créer des copies exactes des individus de la classe minoritaire, nous pouvons introduire de petites variations dans ces copies, créant ainsi des échantillons synthétiques plus diversifiés. Mais malheuresement, cette méthode n'a pas aussi marché. Du coup, on s'est tourné à utiliser une autre technique de ré-échantillonnage, le SMOTE.
 
-> Le SMOTE (Synthetic Minority Oversampling TEchnique) consiste à synthétiser des éléments pour la classe minoritaire, en se basant sur ceux qui existent déjà. Elle consiste à choisir au hasard un point de la classe minoritaire et à calculer les voisins les plus proches pour ce point. Les points de synthèse sont ajoutés entre le point choisi et ses voisins.
+> Le SMOTE (Synthetic Minority Oversampling Technique) consiste à synthétiser des éléments pour la classe minoritaire, en se basant sur ceux qui existent déjà. Elle consiste à choisir au hasard un point de la classe minoritaire et à calculer les voisins les plus proches pour ce point. Les points de synthèse sont ajoutés entre le point choisi et ses voisins.
 
 ![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/smote.png)
 
@@ -128,6 +128,6 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > Notre réseau de neurone a donnée les performances suivantes :
 
-
+![confusion_matrix_nn](https://user-images.githubusercontent.com/45575893/78071072-1d7ccf80-739d-11ea-90c0-35595af589cc.PNG)
 
 ---
