@@ -2,8 +2,7 @@
 						
 ---
 
-> 17/01/2020 : Introduction au projet avec Mme Agathe Guilloux. L'objectif de ce travail et les rendus attendus nous ont 
-été présentés. Un suivi hebdomadaire du projet est mis en place.
+> 17/01/2020 : Introduction au DataCamp avec Notre chère Professeur Mme Agathe Guilloux. L'objectif de cette compétition et les rendus attendus nous ont été présentés. Un suivi hebdomadaire du DataCamp est mis en place et sera supervisé par M. Simon Bussy.
 
 ---
 
