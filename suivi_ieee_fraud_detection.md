@@ -120,7 +120,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > Cependant, meme le SMOTE n'arriver pas à nous donner de bon résultat. Ainsi pour contourner le probléme, nous avons proceder à une simple stratification lors du split du jeux de données initiales en apprentissage et validation. Après quelques preprocessing (standarnisations des numerical features, encodage, etc), nous avons lancées notre premier réseau de neurone (MLP) avec quelques spécifications.
 
-> Notre réseau de neurones est assez standard. Nous avons utilisé la couche d'intégration pour les catégories et les données numériques passent au travers des couches denses à propagation directe.
+> Notre réseau de neurones est assez standard. Nous avons utilisé la couche d'intégration pour que les catégories et les données numériques passent au travers des couches denses à propagation directe.
 
 > Nous avons crée des couches d'intégration de manière à avoir autant de lignes que de catégories et la dimension de l'intégration est le log1p + 1 du nombre de catégories. Cela signifie donc que les variables catégorielles à très haute cardinalité auront plus de dimensions, mais pas de manière significative, de sorte que les informations seront toujours comprimées à environ 18 dimensions seulement et que le nombre de catégories ne sera que de 2 à 3.
 
