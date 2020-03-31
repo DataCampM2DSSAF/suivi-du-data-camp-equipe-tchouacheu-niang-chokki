@@ -83,6 +83,18 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
+> LGBM
+
+![LGBM](https://user-images.githubusercontent.com/45575893/78065318-63cd3100-7393-11ea-903c-2cfcb0fd777c.PNG)
+
+---
+
+> XGBOOST and LGBM working
+
+
+
+---
+
 > 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées (resampling ou stratification) et faire tourner les autres modèles et voir les prédictions sur le jeux de données de validation.
 
 ---
