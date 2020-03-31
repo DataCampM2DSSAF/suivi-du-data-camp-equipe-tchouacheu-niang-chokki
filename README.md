@@ -14,6 +14,7 @@
 - [Telecharger le jeux de donnees complet sur Kaggle](#telecharger-le-jeux-de-donnees-complet-sur-kaggle)
 - [Organisation du projet](#organisation-du-projet)
 - [Meilleure Soumission sur Kaggle](#meilleure-soumission-sur-kaggle)
+- [Finale Soumission sur Kaggle](#finale-soumission-sur-kaggle)
 - [Importance des variables du modele ayant la meilleure soumission](#importance-des-variables-du-modele-ayant-la-meilleure-soumission)
 - [Distribution de la meilleure soumission](#distribution-de-la-meilleure-soumission)
 - [Liens du projet](#liens-du-projet)
@@ -90,6 +91,12 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
  ---
  
 ## Meilleure Soumission sur Kaggle
+
+![submission](https://user-images.githubusercontent.com/45575893/77119878-b293d600-6a37-11ea-9440-104fbef561f1.PNG)
+
+ ---
+ 
+## Finale Soumission sur Kaggle
 
 ![submission](https://user-images.githubusercontent.com/45575893/77119878-b293d600-6a37-11ea-9440-104fbef561f1.PNG)
 
