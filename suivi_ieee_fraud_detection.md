@@ -19,8 +19,8 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 | Imbalanced problem    | Random Forest          | Logistic Regression  |  
 | Preprocessing         | KNearest Neighbors     |                      |            
 | XGBoost Classifier    | DecisionTree Classifier|                      |
-| LGBM Classifier       | Naive Bayes            |                      |                        
-|notebook final&rapport | Rapport                |                      |
+| notebook final        | Naive Bayes            |                      |                        
+|                       | Rapport                |                      |
 
 
 ---
@@ -67,11 +67,11 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
-> 14/02/2020 : Cette séance nous a permis de finir avec la partie statistique descriptive et la première partie de traitement des données, vu qu'il y avait beaucoup de missing value dans les données. Ainsi, nous n'avons pas encore réglé le problème des classes non balancées car pour la suite nous avons décider de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost, le CatBoost et le LGBM. Ces modèles sont non seulement éfficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values. Ainsi nous allons dans un premier temps nous focalisé sur les modèles comme XGBOOST et LGBM. Puis dans un second temps, nous allons essayer corriger le problème de classe non balancée en faisant du resampling, faire le preprocessing necessaire et ensuite faire un apercu sur les autres modèles classiques comme Logistic regression, Naive Bayes, etc.
+> 14/02/2020 : Cette séance nous a permis de finir avec la partie statistique descriptive et la première partie de traitement des données, vu qu'il y avait beaucoup de missing value dans les données. Ainsi, nous n'avons pas encore réglé le problème des classes non balancées car pour la suite nous avons décider de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost, le CatBoost et le LGBM. Ces modèles sont non seulement éfficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values. Ainsi nous allons dans un premier temps nous focalisé sur les modèles comme XGBOOST et LGBM. Puis dans un second temps, nous allons essayer corriger le problème de classe non balancée en faisant du resampling ou de la stratification, faire le preprocessing necessaire et ensuite faire un apercu sur les autres modèles classiques comme le Logistic regression, Naive Bayes, etc.
 
 ---
 
-> 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées et faire tourner les autres modèles et voir les prédictions sur le jeux de données Test.
+> 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées (resampling ou stratification) et faire tourner les autres modèles et voir les prédictions sur le jeux de données de validation.
 
 ---
 
@@ -79,6 +79,18 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
-> 16/03/2020 : Nous allons finir avec la modélisation et faire les dernières soumissions Kaggle. Ensuite, nous allons poursuivre avec la rédaction du rapport. Avec le modèle LGBM, nous avons obtenu un accuracy de 99% et un AUC de 97,68%. Ce modèle a pu amélioré le score privé sur Kaggle après soumission qui est ainsi devenu 0.921948 mais n'a pas amélioré le score public. Mais quand meme avec l'aggregation des features, on voit qu'on obtient de très bon résultat. Ainsi, nous allons poursuivre et finir avec les modèles classiques et l'apprentissage profond. Pour cela, nous allons commencer par régler le problème de classe non balancée et faire quelque preprocessing necessaire (normalisation, etc).
+> 16/03/2020 : Nous allons finir avec la modélisation et faire les dernières soumissions Kaggle. Ensuite, nous allons poursuivre avec la rédaction du rapport. Avec le modèle LGBM, nous avons obtenu un accuracy de 99% et un AUC de 97,68%. Ce modèle a pu amélioré le score privé sur Kaggle après soumission qui est ainsi devenu 0.921948 mais n'a pas amélioré le score public. Mais quand meme avec l'aggregation des features, on voit qu'on obtient de très bon résultat. Ainsi, nous allons poursuivre et finir avec les modèles classiques et l'apprentissage profond. Pour cela, nous allons commencer par régler le problème de classe non balancée (resampling ou stratification) et faire quelque preprocessing necessaire (normalisation, etc).
+
+---
+
+> 27/03/2020 : Vu le problème de classe non balancée, il est nous primordial de le corriger avant de s'attaquer aux méthodes d'apprentissages classiques et d'apprentissages profonds. En effet, lorsque les données présentent des classes non équilibrées, il sera pas du tout ingenieux d'utiliser les memes techniques classiques pour résoudre le problème posé. Il est recomandé aux Data Scientist de revoir soit la métrique à utliser pour évaluer la performance des modèles (matrice de confusion, f1_score, precision, recall, etc), soit d'utiliser une technique de resampling, soit d'utiliser les algorithmes ensemblistes (XGBOOST, LGBM, etc) pour contourner le problème de classe non équilibrée. 
+
+Pour ce faire, dans cette séance, nous avons commencé à tester les méthodes de resampling. Premièrement, nous avons fait du oversampling qui consiste à ajouter des exemples sur la classe minoritaire pour équilibrer les classes. Cet ajout d'exemple s'appuie juste sur un tirage avec remise de l'échantillon constituant la classe minoritaire, donc non robuste si on présente beaucoup de données. Cette dernière méthode a été testé mais n'a pas donné de bon résultat. Du coup, en faisant un peu de recherche, on s'est appercu qu'il existe d'autres techniques de resampling plus sophistiquées en utlisant le module imbalanced-learn de Python.
+
+Au lieu de créer des copies exactes des individus de la classe minoritaire, nous pouvons introduire de petites variations dans ces copies, créant ainsi des échantillons synthétiques plus diversifiés. Mais malheuresement, cette méthode n'a pas aussi marché. Du coup, on s'est tourné à utiliser une autre technique de ré-échantillonnage, le SMOTE.
+
+Le SMOTE (Synthetic Minority Oversampling TEchnique) consiste à synthétiser des éléments pour la classe minoritaire, en se basant sur ceux qui existent déjà. Elle consiste à choisir au hasard un point de la classe minoritaire et à calculer les voisins les plus proches pour ce point. Les points de synthèse sont ajoutés entre le point choisi et ses voisins.
+
+![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/smote.png)
 
 ---
