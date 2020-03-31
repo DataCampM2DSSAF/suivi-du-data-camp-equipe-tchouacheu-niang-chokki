@@ -98,7 +98,7 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
  
 ## Finale Soumission sur Kaggle
 
-![submission](https://user-images.githubusercontent.com/45575893/77119878-b293d600-6a37-11ea-9440-104fbef561f1.PNG)
+![final_submission](https://user-images.githubusercontent.com/45575893/78059672-8ad33500-738a-11ea-86ac-2a70cd6f8c11.PNG)
 
 ---
 
