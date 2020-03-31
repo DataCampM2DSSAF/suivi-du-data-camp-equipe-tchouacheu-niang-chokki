@@ -134,4 +134,10 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ![ROC_ _AUC](https://user-images.githubusercontent.com/45575893/78071870-86187c00-739e-11ea-8843-22f0d4757193.PNG)
 
+> A la lumière du graphique ci-dessus, il ressort que l'aire en dessous de la courbe est de 0.955, c'est-à-dire que nous avons un AUC de 0.955. Ce qui prouve souligne la robustesse de notre réseau de neurone malgré les nombreux problèmes que nous avons rencontré.
+
+> Nous avons aussi testé d'autres modèles classiques comme le KNN, les Arbres de Décision et le Logistic Regression. Mais tous ces modèles n'ont pas pu donner de meilleurs résultats par rapport aux modèles ensemblistes que nous avons fait plus haut. Vu les nombreuses anomalies que nous avions eu sur les données, c'était bien évidente que ca se passe ainsi. 
+
+> Ainsi, ayant finit avec la modélisation, nous allons consacré le reste de notre temps sur le rapport.
+
 ---
