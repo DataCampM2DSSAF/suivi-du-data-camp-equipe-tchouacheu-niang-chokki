@@ -72,14 +72,14 @@ Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
     │
     ├── submission files                                 <- contenant les fichiers de soumissions sous format csv
     │
-    ├── data
+    ├── dataset reference
     │   ├── train_{transaction, identity}.csv            <- the training set
     │   ├── test_{transaction, identity}.csv             <- the test set (you must predict the isFraud value for these observations)
     │   ├── sample_submission.csv                        <- a sample submission file in the correct format
     │   
     │   
     │
-    ├── suivi_ieee_fraud_detection                       <- Contenant le suivi et l'avancée du projet
+    ├── suivi_ieee_fraud_detection.md                    <- Contenant le suivi et l'avancée du projet
     │
     ├── notebooks (ieee_fraud_detection)                 <- Contenant les fichiers du projet sous Jupyter notebooks
     │                         
