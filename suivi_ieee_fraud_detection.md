@@ -148,6 +148,8 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > Il ressort de l'analyse de la matrice de confusion, d'une part, qu'il y a 1958 False-Positive c'est-à-dire une transaction non frauduleuse prédite comme étant une transaction frauduleuse et d'autre part, qu'il y a 183 False-Negative c'est-à-dire une transaction frauduleuse prédite comme étant une transaction non frauduleuse. 
 
+> A cela, s'ajoute le fait qu'on observe que le modèle de LGBM donne un nombre plus signifiant de True-Negative (c'est-dire les tansactions qui sont correctement classées comme frauduleuse).
+
 ![ROC_ _AUC](https://user-images.githubusercontent.com/45575893/78071870-86187c00-739e-11ea-8843-22f0d4757193.PNG)
 
 > A la lumière du graphique ci-dessus, il ressort que l'aire en dessous de la courbe est de 0.955, c'est-à-dire que nous avons un AUC de 0.955. Ce qui prouve souligne la robustesse de notre réseau de neurone malgré les nombreux problèmes que nous avons rencontré.
