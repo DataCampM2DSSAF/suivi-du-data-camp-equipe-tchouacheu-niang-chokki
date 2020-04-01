@@ -112,7 +112,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > Dans la validation croisée, nous exécutons notre processus de modélisation sur différents sous-ensembles de données pour obtenir de multiples mesures de la qualité du modèle. Par exemple, nous pourrions avoir 5 plis ou expériences. Nous divisons les données en 5 morceaux, chacun représentant 20% de l'ensemble des données.
 
-
+![k_fold](https://user-images.githubusercontent.com/45575893/78094076-efff4880-73d3-11ea-9332-7873ec072cc1.PNG)
 
 ---
 
