@@ -131,7 +131,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
-> 27/03/2020 : Vu le problème de classe non balancée, il est nous primordial de le corriger avant de s'attaquer aux méthodes d'apprentissages classiques et d'apprentissages profonds. En effet, lorsque les données présentent des classes non équilibrées, il sera pas du tout ingenieux d'utiliser les memes techniques classiques pour résoudre le problème posé. Il est recomandé aux Data Scientist de revoir soit la métrique à utliser pour évaluer la performance des modèles (matrice de confusion, f1_score, precision, recall, etc), soit d'utiliser une technique de resampling, soit d'utiliser les algorithmes ensemblistes (XGBOOST, LGBM, etc) pour contourner le problème de classe non équilibrée. 
+> 27/03/2020 : Vu le problème de classe non balancée, il nous est primordial de le corriger avant de s'attaquer aux méthodes d'apprentissages classiques et d'apprentissages profonds. En effet, lorsque les données présentent des classes non équilibrées, il sera pas du tout ingenieux d'utiliser les memes techniques classiques pour résoudre le problème posé. Il est recomandé aux Data Scientist de revoir soit la métrique à utliser pour évaluer la performance des modèles (matrice de confusion, f1_score, precision, recall, etc), soit d'utiliser une technique de resampling, soit d'utiliser les algorithmes ensemblistes (XGBOOST, LGBM, etc) pour contourner le problème de classe non équilibrée. 
 
 ![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/resampling.png)
 
