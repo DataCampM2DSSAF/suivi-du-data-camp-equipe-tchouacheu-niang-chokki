@@ -106,6 +106,8 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > Supposons maintenant que nous ayons un UID qui définit les groupes et que nous fassions une caractéristique agrégée en prenant la moyenne de FeatureX dans chaque groupe. Nous pouvons maintenant classer correctement 100 % des transactions. Notez que nous n'utilisons jamais l'UID de la caractéristique dans notre arbre de décision.
 
+![sub_group_2](https://user-images.githubusercontent.com/45575893/78093102-bfb6aa80-73d1-11ea-8000-10242ca29010.PNG)
+
 ---
 
 > 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées (resampling ou stratification) et faire tourner les autres modèles et voir les prédictions sur le jeux de données de validation.
