@@ -114,6 +114,10 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ![k_fold](https://user-images.githubusercontent.com/45575893/78094076-efff4880-73d3-11ea-9332-7873ec072cc1.PNG)
 
+> Nous menons une expérience appelée expérience 1, qui utilise le premier pli comme un ensemble de données d'entraînement, et tout le reste comme des données d'entraînement. Cela nous donne une mesure de la qualité du modèle basée sur un ensemble de 20 % de données d'attente, comme nous l'avons obtenu en utilisant la simple répartition train-test.
+
+> Nous effectuons ensuite une deuxième expérience, où nous retenons les données du deuxième pli (en utilisant tout sauf le deuxième pli pour l'entraînement du modèle). Nous répétons ce processus, en utilisant chaque pli une fois comme données de référence. Au total, 100 % des données sont utilisées comme données de référence à un moment donné.
+
 ---
 
 > 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées (resampling ou stratification) et faire tourner les autres modèles et voir les prédictions sur le jeux de données de validation.
