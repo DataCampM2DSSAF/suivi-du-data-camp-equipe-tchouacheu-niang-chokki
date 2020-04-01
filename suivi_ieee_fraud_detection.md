@@ -96,7 +96,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 > XGBOOST and LGBM Magic working
 
-> Les variables magiques se fait en deux temps. Premièrement, nous avons besoin d'une variable UID pour identifier les clients (cartes de crédit). Ensuite, nous devons créer des caractéristiques de groupe agrégées. Ensuite, nous retirons l'UID. Supposons que nous ayons 10 transactions `A, B, C, D, E, F, G, H, I, J` comme ci-dessous. 
+> Les variables magiques se font en deux étapes. D'abord, nous avons besoin d'une variable UID pour identifier les clients (cartes de crédit). Ensuite, nous devons créer des caractéristiques de groupe agrégées. Ensuite, nous retirons l'UID. Supposons que nous ayons 10 transactions `A, B, C, D, E, F, G, H, I, J` comme ci-dessous. 
 
 ![magic_features](https://user-images.githubusercontent.com/45575893/78092601-787bea00-73d0-11ea-9b02-d29c9722f990.PNG)
 
