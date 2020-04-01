@@ -100,6 +100,8 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ![magic_features](https://user-images.githubusercontent.com/45575893/78092601-787bea00-73d0-11ea-9b02-d29c9722f990.PNG)
 
+> Si nous n'utilisons que les FeatureX, nous pouvons classer correctement 70 % des transactions. Ci-dessous, les cercles jaunes correspondent aux transactions "isFraud=1" et les cercles bleus aux transactions "isFraud=0". Après que le modèle d'arbre ci-dessous ait divisé les données deux groupes gauche et droite, nous prédisons `isFraud=1` pour le groupe de gauche et `isFraud=0` pour le groupe de droite. Ainsi, 7 prédictions sur 10 sont correctes.
+
 ---
 
 > 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées (resampling ou stratification) et faire tourner les autres modèles et voir les prédictions sur le jeux de données de validation.
