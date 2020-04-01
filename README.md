@@ -35,7 +35,9 @@ Nous devrons ainsi améliorer l'efficacité des alertes de transactions fraudule
 ## Contenu du projet
 
 Vous trouverez dans ce répertoire l'ensemble des fichiers utiles à ce projet :
-  - Notebook : l'ensemble du code Python
+  - Notebook : contenant l'ensemble du code Python utilisé
+  - Fichiers de soumission : contenant l'ensemble des fichiers de soumission sur Kaggle
+  - Images : contenant l'ensemble des images utilisées sur les Notebooks 
   - Fichier de suivi : fichier centralisant l'évolution chronologique du projet et la répartition des tâches du team
   - Rapport : le rapport expliquant les différentes méthodes utilisées et les résultats obtenus
 
