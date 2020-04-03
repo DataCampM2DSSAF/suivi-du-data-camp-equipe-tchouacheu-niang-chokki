@@ -79,7 +79,7 @@ juste sur un tirage avec remise de l'échantillon constituant la classe minorita
 
 ![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/smote.png)
 
-> Cependant, meme le SMOTE n'arriver pas à nous donner de bon résultat. Ainsi pour contourner le probléme, nous avons proceder à une simple stratification lors du split du jeux de données initiales en apprentissage et validation.
+> Cependant, meme le SMOTE n'arrivais pas à nous donner de bon résultat. Ainsi pour contourner le probléme, nous avons proceder à une simple stratification lors du split du jeux de données initiales en apprentissage et validation.
 
 ---
 > 21/02/2020 : Cette séance nous a permis de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost et le LGBM. Ces modèles sont non seulement efficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values.
