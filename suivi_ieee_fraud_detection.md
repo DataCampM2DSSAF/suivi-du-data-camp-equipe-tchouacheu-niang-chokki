@@ -13,13 +13,15 @@ plutôt un responsable pour chacune des parties du projet. Ci dessous, une visio
 
 | Mohamed Niang         | Fernanda Tchouacheu    | Hypolite Chokki          |  
 | :-:                   | :-:                    | :-:                      | 
-| Data exploration      | Desciptive Statistics  | Random Forest            |  
-| Missing Data Problem  | Memory reduction       | Naive Bayes              |  
+| Data exploration      | Desciptive Statistics  | Naive Bayes              |  
+| Missing Data Problem  | Memory reduction       | Resampling techniques    |  
 | Imbalanced problem    | LGBM Classifier        | Logistic Regression      |  
-| Preprocessing         | KNearest Neighbors     | Resampling techniques    |            
-| XGBoost Classifier    | Features engineering   | DecisionTree Classifier  |
-| Notebook final        | Neural Network         |                          |                        
-| Magic features        | Rapport                |                          |
+| Preprocessing         | KNearest Neighbors     |                          |            
+| XGBoost Classifier    | Features engineering   |                          |
+| LGBM Classifier       | Logistic Regression    |                          |                        
+| Magic features        | DecisionTree           |                          |
+| Neural Network        | Random Forest          |                          |
+| Notebook final        | Rapport                |                          |
 
 ---
 
