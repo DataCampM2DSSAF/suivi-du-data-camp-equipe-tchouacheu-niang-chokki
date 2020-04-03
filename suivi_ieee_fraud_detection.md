@@ -83,6 +83,7 @@ juste sur un tirage avec remise de l'échantillon constituant la classe minorita
 
 ---
 > 21/02/2020 : Cette séance nous a permis de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost et le LGBM. Ces modèles sont non seulement efficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values.
+
 > XGBoost
 
 ![ Approach to Ensemble based Methodologies](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/03/16142904/ICP4.png)
