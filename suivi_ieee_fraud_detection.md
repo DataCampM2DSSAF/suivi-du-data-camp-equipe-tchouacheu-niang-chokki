@@ -66,9 +66,23 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 > 31/01/2019 : cette séance nous a permis de mieux explorer les données.Nous avons commencé par faire une exploration des données, visualiser les problèmes que souffrent nos données. Nous avons aussi fait quelques analyses statistiques et descriptives sur les données afin de comprendre ce que nous avons comme données.
 
 ---
+> 14/02/2020 :Cette séance nous a permis de finir avec la partie statistique descriptive et la première partie de traitement des données, vu qu'il y avait beaucoup de missing value dans les données. Vu le problème de classe non balancée, il nous est primordial de le corriger avant de s'attaquer aux méthodes d'apprentissages classiques et d'apprentissages profonds. En effet, lorsque les données présentent des classes non équilibrées, il sera pas du tout ingenieux d'utiliser les memes techniques classiques pour résoudre le problème posé. Il est recomandé aux Data Scientist de revoir soit la métrique à utliser pour évaluer la performance des modèles (matrice de confusion, f1_score, precision, recall, etc), soit d'utiliser une technique de resampling, soit d'utiliser les algorithmes ensemblistes (XGBOOST, LGBM, etc) pour contourner le problème de classe non équilibrée. 
 
-> 14/02/2020 : Cette séance nous a permis de finir avec la partie statistique descriptive et la première partie de traitement des données, vu qu'il y avait beaucoup de missing value dans les données. Ainsi, nous n'avons pas encore réglé le problème des classes non balancées car pour la suite nous avons décider de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost, le CatBoost et le LGBM. Ces modèles sont non seulement éfficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values. Ainsi nous allons dans un premier temps nous focalisé sur les modèles comme XGBOOST et LGBM. Puis dans un second temps, nous allons essayer corriger le problème de classe non balancée en faisant du resampling ou de la stratification, faire le preprocessing necessaire et ensuite faire un apercu sur les autres modèles classiques comme le Logistic regression, Naive Bayes, etc.
+![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/resampling.png)
 
+> Pour ce faire, dans cette séance, nous avons commencé à tester les méthodes de resampling. Premièrement, nous avons fait du oversampling qui consiste à ajouter des exemples sur la classe minoritaire pour équilibrer les classes. Cet ajout d'exemple s'appuie
+juste sur un tirage avec remise de l'échantillon constituant la classe minoritaire, donc non robuste si on présente beaucoup de données. Cette dernière méthode a été testé mais n'a pas donné de bon résultat. Du coup, en faisant un peu de recherche, on s'est appercu qu'il existe d'autres techniques de resampling plus sophistiquées en utlisant le module imbalanced-learn de Python.
+
+> Au lieu de créer des copies exactes des individus de la classe minoritaire, nous pouvons introduire de petites variations dans ces copies, créant ainsi des échantillons synthétiques plus diversifiés. Mais malheuresement, cette méthode n'a pas aussi marché. Du coup, on s'est tourné à utiliser une autre technique de ré-échantillonnage, le SMOTE.
+
+> Le SMOTE (Synthetic Minority Oversampling Technique) consiste à synthétiser des éléments pour la classe minoritaire, en se basant sur ceux qui existent déjà. Elle consiste à choisir au hasard un point de la classe minoritaire et à calculer les voisins les plus proches pour ce point. Les points de synthèse sont ajoutés entre le point choisi et ses voisins.
+
+![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/smote.png)
+
+> Cependant, meme le SMOTE n'arriver pas à nous donner de bon résultat. Ainsi pour contourner le probléme, nous avons proceder à une simple stratification lors du split du jeux de données initiales en apprentissage et validation.
+
+---
+> 21/02/2020 : Cette séance nous a permis de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost et le LGBM. Ces modèles sont non seulement efficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values.
 > XGBoost
 
 ![ Approach to Ensemble based Methodologies](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/03/16142904/ICP4.png)
@@ -121,7 +135,7 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
-> 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. Ensuite nous allons attaquer la deuxième partie du preprocessing avec les classes non balancées (resampling ou stratification) et faire tourner les autres modèles et voir les prédictions sur le jeux de données de validation.
+> 28/02/2020 : Pour cette séance, nous avons reussi à faire notre première soumission kaggle pour le modèle XGBoost avec un accuracy de 97% sur le test. Ainsi nous allons poursuivre avec les autres modèles dérivés du Gradient Boosting et faire les soumissions. 
 
 ---
 
@@ -129,25 +143,11 @@ Les noms de champ sont masqués et le dictionnaire par paire ne sera pas fourni 
 
 ---
 
-> 16/03/2020 : Nous allons finir avec la modélisation et faire les dernières soumissions Kaggle. Ensuite, nous allons poursuivre avec la rédaction du rapport. Avec le modèle LGBM, nous avons obtenu un accuracy de 99% et un AUC de 97,68%. Ce modèle a pu amélioré le score privé sur Kaggle après soumission qui est ainsi devenu 0.921948 mais n'a pas amélioré le score public. Mais quand meme avec l'aggregation des features, on voit qu'on obtient de très bon résultat. Ainsi, nous allons poursuivre et finir avec les modèles classiques et l'apprentissage profond. Pour cela, nous allons commencer par régler le problème de classe non balancée (resampling ou stratification) et faire quelque preprocessing necessaire (normalisation, etc).
+> 16/03/2020 : Nous allons finir avec la modélisation et faire les dernières soumissions Kaggle. Ensuite, nous allons poursuivre avec la rédaction du rapport. Avec le modèle LGBM, nous avons obtenu un accuracy de 99% et un AUC de 97,68%. Ce modèle a pu amélioré le score privé sur Kaggle après soumission qui est ainsi devenu 0.921948 mais n'a pas amélioré le score public. Mais quand meme avec l'aggregation des features, on voit qu'on obtient de très bon résultat. Ainsi, nous allons poursuivre et finir avec l'apprentissage profond , et nous avons lancées notre premier réseau de neurone (MLP) avec quelques spécifications.
 
 ---
 
-> 27/03/2020 : Vu le problème de classe non balancée, il nous est primordial de le corriger avant de s'attaquer aux méthodes d'apprentissages classiques et d'apprentissages profonds. En effet, lorsque les données présentent des classes non équilibrées, il sera pas du tout ingenieux d'utiliser les memes techniques classiques pour résoudre le problème posé. Il est recomandé aux Data Scientist de revoir soit la métrique à utliser pour évaluer la performance des modèles (matrice de confusion, f1_score, precision, recall, etc), soit d'utiliser une technique de resampling, soit d'utiliser les algorithmes ensemblistes (XGBOOST, LGBM, etc) pour contourner le problème de classe non équilibrée. 
-
-![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/resampling.png)
-
-> Pour ce faire, dans cette séance, nous avons commencé à tester les méthodes de resampling. Premièrement, nous avons fait du oversampling qui consiste à ajouter des exemples sur la classe minoritaire pour équilibrer les classes. Cet ajout d'exemple s'appuie juste sur un tirage avec remise de l'échantillon constituant la classe minoritaire, donc non robuste si on présente beaucoup de données. Cette dernière méthode a été testé mais n'a pas donné de bon résultat. Du coup, en faisant un peu de recherche, on s'est appercu qu'il existe d'autres techniques de resampling plus sophistiquées en utlisant le module imbalanced-learn de Python.
-
-> Au lieu de créer des copies exactes des individus de la classe minoritaire, nous pouvons introduire de petites variations dans ces copies, créant ainsi des échantillons synthétiques plus diversifiés. Mais malheuresement, cette méthode n'a pas aussi marché. Du coup, on s'est tourné à utiliser une autre technique de ré-échantillonnage, le SMOTE.
-
-> Le SMOTE (Synthetic Minority Oversampling Technique) consiste à synthétiser des éléments pour la classe minoritaire, en se basant sur ceux qui existent déjà. Elle consiste à choisir au hasard un point de la classe minoritaire et à calculer les voisins les plus proches pour ce point. Les points de synthèse sont ajoutés entre le point choisi et ses voisins.
-
-![](https://raw.githubusercontent.com/rafjaa/machine_learning_fecib/master/src/static/img/smote.png)
-
-> Cependant, meme le SMOTE n'arriver pas à nous donner de bon résultat. Ainsi pour contourner le probléme, nous avons proceder à une simple stratification lors du split du jeux de données initiales en apprentissage et validation. Après quelques preprocessing (standarnisations des numerical features, encodage, etc), nous avons lancées notre premier réseau de neurone (MLP) avec quelques spécifications.
-
-> Notre réseau de neurones est assez standard. Nous avons utilisé la couche d'intégration pour que les catégories et les données numériques passent au travers des couches denses à propagation directe.
+> 27/03/2020: Notre réseau de neurones est assez standard. Nous avons utilisé la couche d'intégration pour que les catégories et les données numériques passent au travers des couches denses à propagation directe.
 
 > Nous avons crée des couches d'intégration de manière à avoir autant de lignes que de catégories et la dimension de l'intégration est le log1p + 1 du nombre de catégories. Cela signifie donc que les variables catégorielles à très haute cardinalité auront plus de dimensions, mais pas de manière significative, de sorte que les informations seront toujours comprimées à environ 18 dimensions seulement et que le nombre de catégories ne sera que de 2 à 3.
 
