@@ -81,6 +81,10 @@ juste sur un tirage avec remise de l'échantillon constituant la classe minorita
 
 > Cependant, meme le SMOTE n'arrivais pas à nous donner de bon résultat. Ainsi pour contourner le probléme, nous avons proceder à une simple stratification lors du split du jeux de données initiales en apprentissage et validation.
 
+> Dans le cas d’un problème de classification, on s’efforce généralement de créer les k folds de sorte à ce qu’elles contiennent à peu près les mêmes proportions d’exemples de chaque classe que le jeu de données complet. On cherche à éviter qu’un jeu d’entraînement ne contienne que des exemples positifs et que le jeu de test correspondant ne contienne que des exemples négatifs, ce qui va affecter négativement la performance du modèle, c'est ce que l'on appelle la stratification.
+
+![stratification](https://user-images.githubusercontent.com/45575893/78572610-fa806e80-7827-11ea-9c30-e25b6a3a595a.png)
+
 ---
 > 21/02/2020 : Cette séance nous a permis de lancer nos premiers modèles qui sont robustes sur données non banlancée et présentant des missing. Ces derniers sont : le XGBoost et le LGBM. Ces modèles sont non seulement efficace pour les données présentant des problèmes de classe non balancée mais aussi pour des données présentant des outliers, des features non standardisées, des features collinéaires et des missing values.
 
