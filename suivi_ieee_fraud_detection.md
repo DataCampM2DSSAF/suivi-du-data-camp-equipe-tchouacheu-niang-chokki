@@ -11,17 +11,17 @@ globale du projet et de la structure du répertoire dans le fichier Readme.
 Nous avons aussi procédé à une répartition des tâches. Nous n'avons pas choisi une structure avec un chef de groupe mais 
 plutôt un responsable pour chacune des parties du projet. Ci dessous, une vision globale de cette répartition :
 
-| Mohamed Niang         | Fernanda Tchouacheu    | Hypolite Chokki          |  
-| :-:                   | :-:                    | :-:                      | 
-| Data exploration      | Desciptive Statistics  | Naive Bayes              |  
-| Missing Data Problem  | Memory reduction       | Resampling techniques    |  
-| Imbalanced problem    | LGBM Classifier        | Logistic Regression      |  
-| Preprocessing         | KNearest Neighbors     |                          |            
-| XGBoost Classifier    | Features engineering   |                          |
-| LGBM Classifier       | Logistic Regression    |                          |                        
-| Magic features        | DecisionTree           |                          |
-| Neural Network        | Random Forest          |                          |
-| Notebook final        | Rapport                |                          |
+| Mohamed Niang         | Fernanda Tchouacheu (Nando-512)    | Hypolite Chokki          |  
+| :-:                   | :-:                                | :-:                      | 
+| Data exploration      | Desciptive Statistics              | Naive Bayes              |  
+| Missing Data Problem  | Memory reduction                   | Resampling techniques    |  
+| Imbalanced problem    | LGBM Classifier                    | Logistic Regression      |  
+| Preprocessing         | KNearest Neighbors                 |                          |            
+| XGBoost Classifier    | Features engineering               |                          |
+| LGBM Classifier       | Logistic Regression                |                          |                        
+| Magic features        | DecisionTree                       |                          |
+| Neural Network        | Random Forest                      |                          |
+| Notebook final        | Rapport                            |                          |
 
 ---
 
